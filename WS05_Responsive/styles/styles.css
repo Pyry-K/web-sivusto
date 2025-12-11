@@ -1,0 +1,367 @@
+.transition-button {
+  background-image: url("https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Realm_of_Death.png?9696f");
+  background-size: 53px 43px;
+  background-repeat: no-repeat;
+  margin-left: 2.5%;
+  margin-top: 1%;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-family: "arial black";
+  font-size: 15px;
+}
+
+.transition-button:hover {
+  background-image: url("https://wiki.leagueoflegends.com/en-us/images/Mordekaiser_Realm_of_Death.png?9696f");
+  background-size: 53px 43px;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+img {
+  width: 30%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+p {
+  color: #4e9577;
+}
+body {
+  background-color: #34383b;
+  margin-left: 2%;
+  margin-right: auto;
+}
+div {
+  padding: 120px;
+  margin: 10px;
+}
+p {
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+h1 {
+  font-family: "Lucida Handwriting";
+}
+h2 {
+  font-family: "Arial Black";
+  margin-left: 0%;
+  margin-right: auto;
+}
+h3 {
+  font-family: "arial black";
+}
+h4 {
+  font-family: "arial black";
+  margin-left: 1%;
+  color: #ddd;
+}
+ol {
+  font-family: "Garamond black";
+  font-size: 25px;
+  margin-left: 3%;
+  margin-right: auto;
+}
+form {
+  background-color: #222222;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  color: white;
+  font-family: "arial black";
+  margin-left: 10%;
+  margin-right: auto;
+}
+input[type="text"],
+input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "arial black";
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "arial black";
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  font-family: "arial black";
+}
+figcaption {
+  font-family: "comic Sans MS";
+  font-size: 15px;
+  color: lightgray;
+  margin-left: 100px;
+}
+a {
+  font-size: 20px;
+  color: #fff;
+  font-family: "arial black";
+  text-shadow: 0 0 5px #d4016f, 0 0 10px #d4016f, 0 0 20px #d4016f,
+    0 0 40px #d4016f;
+  animation: glow 1.5s infinite alternate;
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #d4016f, 0 0 10px #d4016f, 0 0 20px #d4016f,
+      0 0 40px #d4016f;
+  }
+  50% {
+    text-shadow: 0 0 10px #9b4f96, 0 0 20px #9b4f96, 0 0 40px #9b4f96,
+      0 0 80px #9b4f96;
+  }
+  100% {
+    text-shadow: 0 0 10px #0038a8, 0 0 20px #0038a8, 0 0 40px #0038a8,
+      0 0 80px #0038a8;
+  }
+}
+
+tr,
+th,
+td {
+  border: 2px solid #4e9577;
+  padding: 10px;
+  text-align: center;
+  font-family: "arial black";
+  color: white;
+}
+.animation-box {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://media1.tenor.com/m/2sq_zPCNSI0AAAAd/mordekaiser-viego.gif");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  animation: move 3s infinite alternate;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100px;
+  }
+}
+.pseudo-list li:nth-child(odd) {
+  background-color: #4e9577;
+  font-family: "arial black";
+  margin-right: auto;
+  padding-right: 50%;
+}
+
+.pseudo-list li:nth-child(even) {
+  background-color: #535353;
+  font-family: "arial black";
+  margin-right: auto;
+  padding-right: 50%;
+}
+.filter-image:hover {
+  filter: grayscale(50%);
+  transition: filter 0.3s ease;
+}
+
+.filter-image:hover {
+  filter: grayscale(100%);
+}
+.quote {
+  position: relative;
+  padding-left: 15px;
+  font-family: "arial black";
+  font-size: 15px;
+}
+.quote::before {
+  content: "“";
+  font-size: 20px;
+  position: absolute;
+  font-family: "comic Sans MS";
+  left: 0;
+  top: 1;
+  color: lightgray;
+}
+.quote::after {
+  content: "”";
+  padding-left: 5px;
+  font-family: "comic Sans MS";
+  font-size: 20px;
+  position: absolute;
+  left: 1;
+  top: 20;
+  color: lightgray;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: #4e9577;
+  padding: 20px;
+  text-align: center;
+  font-family: "arial black";
+  background-color: #4e9577;
+  background-repeat: no-repeat;
+  font-family: "arial black";
+  background-size: 100% 100%;
+  padding: 100px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: #4e9577;
+  background-repeat: no-repeat;
+  font-family: "arial black";
+  background-size: 100% 100%;
+  padding: 100px;
+  text-align: center;
+}
+.responsive-box {
+  padding: 20px;
+  font-family: "arial black";
+  color: white;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: #535353;
+  }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+    background-color: #4e9577;
+  }
+}
+.responsive-box-s {
+  padding: 10px;
+  font-family: "arial black";
+  color: white;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .responsive-box-s {
+    background-color: #4e9577;
+  }
+}
+
+@media (min-width: 601px) {
+  .responsive-box-s {
+    background-color: #535353;
+  }
+}
+.responsive-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #4e9577;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+}
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+.media-query-box {
+  padding: 20px;
+  font-family: "arial black";
+  width: 150px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .media-query-box {
+    background-color: lightcoral;
+  }
+}
+
+@media (min-width: 601px) {
+  .media-query-box {
+    background-color: lightblue;
+  }
+}
+.responsive-nav .nav-list {
+  display: flex;
+  list-style: none;
+}
+
+@media (min-width: 601px) {
+  .responsive-nav .nav-list {
+    font-family: "arial black";
+  }
+
+  .responsive-nav .menu-toggle {
+    display: block;
+    background-color: #4e9577;
+    font-family: "arial black";
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-nav .nav-list {
+    display: none;
+    font-family: "arial black";
+  }
+
+  .responsive-nav .menu-toggle {
+    display: block;
+    background-color: #4e9577;
+    font-family: "arial black";
+  }
+}
+.form-control-color {
+  padding: 0px;
+}
+.form-label {
+  font-family: "arial black";
+  color: #4e9577;
+}
+
+.counter {
+  text-align: center;
+  display: inline-flex;
+  margin: 10px;
+  font-family: "arial black";
+  color: #4e9577;
+  padding: 20px;
+}
+
+.counter img {
+  width: 150px;
+  cursor: pointer;
+  max-height: 219px;
+}
+
+.counter-text {
+  display: none;
+  background: #535353;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-family: "arial black";
+  width: 150px;
+  max-height: 199px;
+}

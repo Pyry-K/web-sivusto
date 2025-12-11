@@ -1,0 +1,45 @@
+:root {
+  --text-color: #4e9577;
+  --background-color: #34383b;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Comic Sans MS';
+}
+
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+.light-theme {
+  --bg: var(--green);
+  --fontColor: var(--black);
+}
+
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--green);
+}body {
+    font-family: 'Comic Sans MS';
+}
+
+ul {
+    font-family: 'Comic Sans MS';
+}
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+#msg {
+  font-family: 'Comic Sans MS';
+}
