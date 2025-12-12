@@ -3,43 +3,43 @@ h2,
 h3,
 col,
 p {
-  color: #4e9577;
+  color: #EAEAEA;
 }
 body {
-  background-color: #34383b;
+  background-color: #0A0A0A;
   margin-left: 2%;
   margin-right: auto;
 }
 p {
-  font-family: "Comic Sans MS";
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 h1 {
-  font-family: "Comic Sans MS";
+  font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
-  font-family: "Comic Sans MS";
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 0%;
   margin-right: auto;
 }
 h3 {
-  font-family: "Comic Sans MS";
+  font-family: Arial, Helvetica, sans-serif;
 }
 h4 {
-  font-family: "Comic Sans MS";
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 1%;
   color: #ddd;
 }
 .container {
   max-width: 900px;
   margin: 50px auto;
-  background: white;
+  background: #0FF4C6;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 :root {
-  --bs-primary: #6b1ecf;
+  --bs-primary: #0FF4C6;
   --bs-primary-rgb: 255, 94, 0;
   --bs-primary-contrast: #ffffff;
   --bs-blue: #0d6efd;
@@ -65,20 +65,20 @@ h4 {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-secondary: #6c757d;
+  --bs-secondary: #FF2079;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-secondary-rgb: 108, 117, 125;
+  /* --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 33, 37, 41; */
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -105,11 +105,7 @@ h4 {
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  --bs-font-sans-serif: Arial, Helvetica, sans-serif;
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
@@ -123,15 +119,15 @@ h4 {
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg: #fff;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-emphasis-color: #000;
-  --bs-emphasis-color-rgb: 0, 0, 0;
+  --bs-emphasis-color: #eaeaea;
+  --bs-emphasis-color-rgb: (234,234,234); /* Navbar text color */ 
   --bs-secondary-color: rgba(33, 37, 41, 0.75);
   --bs-secondary-color-rgb: 33, 37, 41;
   --bs-secondary-bg: #e9ecef;
   --bs-secondary-bg-rgb: 233, 236, 239;
   --bs-tertiary-color: rgba(33, 37, 41, 0.5);
   --bs-tertiary-color-rgb: 33, 37, 41;
-  --bs-tertiary-bg: #0080ff;
+  --bs-tertiary-bg: #0FF4C6;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
   --bs-link-color: #0d6efd;
@@ -182,11 +178,14 @@ h4 {
 }
 
 .btn-primary:hover {
-  background-color: #da1313 !important;
-  border-color: #da1313 !important;
+  background-color: #0CC39E  !important;
+  border-color: #0CC39E  !important;
 }
 .navbar.navbar-expand-lg.bg-body-tertiary {
   background-color: var(--bs-tertiary-bg) !important;
   border-color: var(--bs-tertiary-bgr) !important;
   color: var(--bs-primary-contrast, #fff) !important;
+}
+.navbar-brand{ /*navbar text color*/
+    color: #EAEAEA;
 }
