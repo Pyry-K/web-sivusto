@@ -64,7 +64,6 @@ body {
   grid-template-columns: 1fr 320px;
   align-items: start;
   padding: 40px 0;
-  background-image: url("bg-forest.jpg");
   background-size: cover;
   background-position: center;
   background-color: var(--tosi_tumma);
