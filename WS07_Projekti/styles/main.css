@@ -75,11 +75,26 @@ body {
   margin-top: 0;
   padding-left: 18px;
 }
+.hero h3 {
+  color: var(--sumu);
+  margin-top: 0;
+  padding-left: 18px;
+}
 .hero p {
   max-width: 640px;
   color: var(--sumu);
   padding: 10px 15px;
+  font-size: 16px;
 }
+.hero ul {
+  margin-top: 8px;
+  margin-left: 50px;
+  margin-bottom: 16px;
+}
+.hero b {
+  color: var(--veri);
+}
+
 /* nappulat */
 .btn {
   display: inline-block;
@@ -96,7 +111,7 @@ body {
   border: 1px solid var(--vihrea);
   color: var(--sumu);
 }
-/* note / aside / img */
+/* note / aside / imgages */
 .note {
   background: var(--tumma);
   padding: 0px;
@@ -104,11 +119,14 @@ body {
   border-radius: 10px;
   color: #cfcfcf;
 }
-img {
+.story_img {
   display: block;
   margin: auto;
-  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 75%;
 }
+
 /* footer */
 .site-footer {
   border-top: 1px solid var(--tosi_tumma);
@@ -123,10 +141,6 @@ img {
   .hero {
     grid-template-columns: 1fr;
     padding: 28px 0;
-  }
-  .content {
-    grid-template-columns: 1fr;
-    gap: 18px;
   }
   .main-nav {
     display: flex;
