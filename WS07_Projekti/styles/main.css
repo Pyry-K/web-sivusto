@@ -29,6 +29,7 @@ body {
   padding: 16px;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 .container {
   max-width: 1000px;
@@ -125,6 +126,15 @@ figcaption {
   margin-top: 4px;
   margin-left: 30px;
 }
+/*Tarina sivun tekstit*/
+article h3{
+  font-size: 1.3rem;
+  color: var(--sumu);
+  margin-bottom: 8px;
+}
+
+
+
 /* nappulat */
 .btn {
   display: inline-block;
