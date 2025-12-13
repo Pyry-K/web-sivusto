@@ -127,14 +127,16 @@ figcaption {
   margin-left: 30px;
 }
 /*Tarina sivun tekstit*/
-article h3{
+article h3 {
   font-size: 1.3rem;
   color: var(--sumu);
-  margin-bottom: 8px;
+  margin-bottom: 3px;
 }
-
-
-
+article p {
+  color: var(--sumu);
+  margin-left: 5px;
+  line-height: 1.6;
+}
 /* nappulat */
 .btn {
   display: inline-block;
@@ -164,7 +166,7 @@ article h3{
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 75%;
+  width: 90%;
 }
 
 /* footer */
