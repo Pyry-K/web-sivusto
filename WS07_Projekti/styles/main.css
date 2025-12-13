@@ -93,7 +93,38 @@ body {
 .hero b {
   color: var(--veri);
 }
-
+.quote {
+  position: relative;
+  padding-left: 30px;
+  font-family: "Brush Script MT";
+  font-size: 20px;
+}
+.quote::before {
+  content: "“";
+  font-size: 20px;
+  position: absolute;
+  font-family: "Brush Script MT";
+  left: 0;
+  top: 1;
+  color: var(--sumu);
+  padding-left: 10px;
+}
+.quote::after {
+  content: "”";
+  padding-left: 5px;
+  font-family: "Brush Script MT";
+  font-size: 20px;
+  position: absolute;
+  left: 1;
+  top: 20;
+  color: var(--sumu);
+}
+figcaption {
+  font-size: 14px;
+  color: var(--sumu);
+  margin-top: 4px;
+  margin-left: 30px;
+}
 /* nappulat */
 .btn {
   display: inline-block;
